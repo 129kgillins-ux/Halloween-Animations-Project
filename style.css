@@ -22,6 +22,14 @@ background: #424f6f;
 box-sizing: inherit;
 }
 
+#spooky {
+    margin: 10% auto;
+    width: 80%;
+    height: 80%;
+    animation: floaty 2s infinite;
+}
+
+
 #spooky #body {
 position: relative;
 margin: 50px auto 0;
@@ -41,7 +49,7 @@ border-top-left-radius: 90px;
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background: #f2fbf1
+    background: #f2fbf1;
     animation: floaty .2s infinite;
 }
 
@@ -64,12 +72,12 @@ height: 20px;
 
 
 #spooky #body #eyes:before,
-#spooky #body #eyes:after; {
+#spooky #body #eyes:after {
 content: ' ';
 display: block;
 width: 30px;
 height: 30px;
-background: #252c49
+background: #252c49;
 border-radius: 50%;
 }
 
